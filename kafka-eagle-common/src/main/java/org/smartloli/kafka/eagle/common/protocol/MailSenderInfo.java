@@ -43,7 +43,7 @@ public class MailSenderInfo {
 	private String content;
 	private String[] attachFileNames;
 	private List<File> fileList;
-	private Map<String, String> imagesMap = new HashMap<>();
+	private Map<String, String> imagesMap = new HashMap<String, String>();
 
 	public Map<String, String> getImagesMap() {
 		return imagesMap;

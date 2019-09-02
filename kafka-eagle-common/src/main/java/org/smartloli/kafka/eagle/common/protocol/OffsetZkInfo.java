@@ -33,7 +33,7 @@ public class OffsetZkInfo extends BaseProtocol {
 	private String create = "";
 	private String modify = "";
 	private String owners = "";
-	private Set<Integer> partitions = new HashSet<>();
+	private Set<Integer> partitions = new HashSet<Integer>();
 
 	public Set<Integer> getPartitions() {
 		return partitions;

@@ -31,14 +31,14 @@ import com.alibaba.fastjson.JSONObject;
  */
 public class KafkaSqlInfo extends BaseProtocol{
 
-	private List<Integer> partition = new ArrayList<>();
+	private List<Integer> partition = new ArrayList<Integer>();
 	private String sql;
 	private String metaSql;
 	private JSONObject schema = new JSONObject();
 	private String tableName;
 	private String topic;
 	private boolean status;
-	private List<HostsInfo> seeds = new ArrayList<>();
+	private List<HostsInfo> seeds = new ArrayList<HostsInfo>();
 	private String clusterAlias;
 
 	public String getClusterAlias() {
